@@ -1,0 +1,17 @@
+{
+  "name": "babylon-gpu-issue",
+  "version": "1.0.0",
+  "description": "Two small example worlds built on the [noa](https://github.com/fenomas/noa) voxel engine. The easiest way to get started with `noa` is to clone this repo and hack on these demos.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "webpack serve",
+    "build": "rm -f docs/*.js*; webpack"
+  },
+  "author": "Andy Hall",
+  "license": "ISC",
+  "dependencies": {
+    "@babylonjs/core": "^5.0.0-alpha.50",
+    "@babylonjs/materials": "^5.0.0-alpha.50",
+    "voxel-crunch": "^0.2.1"
+  }
+}
